@@ -1,0 +1,16 @@
+Fonction Nombre de Bonbons (argent , prix )
+  argent <- entrer le montant d'argent
+  prix <- entrer le prix du bonbon
+  NombreDeBonbons <- 0
+  Si prix <= 0 et/ou argent<=0 :
+        Retourner "Le prix du bonbon ne peut pas être nul ou négatif / Le montant d'argent ne peut pas être nul ou négatif "
+  Sinon :
+        Tant que argent est  supérieur ou égal à prix :
+            argent <- argent-prix
+            NombreDeBonbons<- NombreDeBonbons + 1
+        Fin Tant que
+  Fin Si
+  
+  Retourner la valeur NombredeBonbons
+  
+Fin Nombre de Bonbons
