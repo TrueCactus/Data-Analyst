@@ -1,0 +1,4 @@
+A\. # Le second prenom de Neo A.
+([1-9][1-9])(\/)([0-9][0-9])(\/)([0-9][0-9][0-9][0-9])  # cherche la date contenu dans le document
+( )([1-9])(\/)([0-9][0-9]) #trouve le debut de note 9/10
+[a-zA-Z]{14} #trouve les mots de 14 caractères
